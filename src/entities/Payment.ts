@@ -31,7 +31,7 @@ export class Payment {
     paymentMethod!: paymentMethod;
 
     @Column({nullable: true})
-    transactiodId!: string;
+    transactionId!: string;
 
     @Column({nullable: true, type: 'text'})
     notes!: string;
